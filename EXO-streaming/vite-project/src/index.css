@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 3%;
+    --foreground: 60 30% 96%;
+    --muted: 0 12% 15%;
+    --muted-foreground: 0 12% 65%;
+    --popover: 0 0% 0%;
+    --popover-foreground: 0 0% 100%;
+    --card: 0 0% 1%;
+    --card-foreground: 0 0% 100%;
+    --border: 0 0% 8%;
+    --input: 0 0% 11%;
+    --primary: 0 0% 96%;
+    --primary-foreground: 0 0% 36%;
+    --secondary: 0 0% 25%;
+    --secondary-foreground: 0 0% 85%;
+    --accent: 0 0% 18%;
+    --accent-foreground: 0 0% 78%;
+    --destructive: 9 82% 58%;
+    --destructive-foreground: 0 0% 0%;
+    --ring: 0 0% 96%;
+    --radius: 3rem;
+  }
+
+  .dark {
+    --background: 0 0% 3%;
+    --foreground: 60 30% 96%;
+    --muted: 0 12% 15%;
+    --muted-foreground: 0 12% 65%;
+    --popover: 0 0% 0%;
+    --popover-foreground: 0 0% 100%;
+    --card: 0 0% 1%;
+    --card-foreground: 0 0% 100%;
+    --border: 0 0% 8%;
+    --input: 0 0% 11%;
+    --primary: 0 0% 96%;
+    --primary-foreground: 0 0% 36%;
+    --secondary: 0 0% 25%;
+    --secondary-foreground: 0 0% 85%;
+    --accent: 0 0% 18%;
+    --accent-foreground: 0 0% 78%;
+    --destructive: 9 82% 58%;
+    --destructive-foreground: 0 0% 0%;
+    --ring: 0 0% 96%;
+  }
+}
